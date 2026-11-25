@@ -1,0 +1,27 @@
+# 运行时依赖（自动下载，体积大）
+bin/
+*.gguf
+*.exe
+*.dll
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+*.spec.bak
+
+# 编辑器/系统
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+*.log
+
+# 本地测试
+*_smoke.py
+*_capture.py
+*_diag*.py
+*.png
